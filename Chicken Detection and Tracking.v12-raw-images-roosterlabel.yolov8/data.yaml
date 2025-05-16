@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rooster']
+
+roboflow:
+  workspace: chickens
+  project: chicken-detection-and-tracking
+  version: 12
+  license: Public Domain
+  url: https://universe.roboflow.com/chickens/chicken-detection-and-tracking/dataset/12
